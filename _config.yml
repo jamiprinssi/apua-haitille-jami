@@ -1,0 +1,14 @@
+# Site settings
+title: AP Haitille
+email: huppuguru@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+
+twitter_username: huppuguru
+github_username: huppuguru
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+encoding: utf-8
