@@ -3,7 +3,7 @@ title: AP Haitille
 email: huppuguru@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/apua-haitille-jami/" # the subpath of your site, e.g. /blog/
-url: "http://jamiprinssi.github.io # the base hostname & protocol for your site
+url: "http://jamiprinssi.github.io" # the base hostname & protocol for your site
 
 twitter_username: jamiprinssi
 github_username: jamiprinssi
