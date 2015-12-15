@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  <!-- {% include header.html %} -->
+   
+   <!-- valikko ei näy kunnolla ilman, että eka elementti ois taustakuva.. :) -->
+   <div style="position: relative; 
+   width: 100%; height: 50px; background: #9e9; margin-bottom:30px;">
+   </div>
+   
+   
+  {{ page.content }}
+
+	{% for post in site.categories.blog %}
+		{% capture post_month %}
+			{{post.date | date: "%m"}}
+		{% endcapture %}
+		{% if post_month != prev_post_month %}
+			{% if prev_post_month %}
+				<br><!-- close month -->
+			{% endif %}
+			<b>{{post.date | date: "%B %Y"}}</b><br><!-- br is open month -->
+		{% endif %}
+		<a href="{{ post.url }}">{{ post.title }}</a> <time>{{post.date | date: "%A %e" }}</time><br>
+		{% capture prev_post_month %}{{post_month}}{% endcapture %}
+	{% endfor %}
+  {% include contact.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
+
