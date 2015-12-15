@@ -164,7 +164,11 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            div {
+                box-shadow: 10px 10px 5px black;
+            } 
             h1 {
+                font-family: 'Roboto Slab', serif;
                 font-weight: 700;
                 text-transform: uppercase;
                 margin-top: 0;
