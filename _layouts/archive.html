@@ -15,10 +15,19 @@
    
   {{ page.content }}
 
-{% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
-{% endfor %}
-
+	{% for post in site.categories.blog %}
+		{% capture post_month %}
+			{{post.date | date: "%m"}}
+		{% endcapture %}
+		{% if post_month != prev_post_month %}
+			{% if prev_post_month %}
+				<br><!-- close month -->
+			{% endif %}
+			<b>{{post.date | date: "%B %Y"}}</b><br><!-- br is open month -->
+		{% endif %}
+		<a href="{{ post.url }}">{{ post.title }}</a> <time>{{post.date | date: "%A %e" }}</time><br>
+		{% capture prev_post_month %}{{post_month}}{% endcapture %}
+	{% endfor %}
   {% include contact.html %}
   {% include scripts.html %}
 </body>
