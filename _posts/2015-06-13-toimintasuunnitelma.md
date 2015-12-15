@@ -1,10 +1,26 @@
-layout: normal
-title: Toimintasuunnitelma
-
 ---
-      <p><em>Apua Haitille ry &#8211; toimintasuunnitelma 2015 </em></p>
-<h2>Toimintasuunnitelma Suomessa</h2>
-<p>Työllistämisohjelman kautta jatketaan kuuden perheen työllistämistä Timonetten kylässä. Kaksi perhettä on Kangasalan seurakunnan kautta lahjoitetuissa kodeissa asuvia perheitä. Heidän työllistämistään tukevat Ritva ja Kari Mikkonen Kangasalta. Kolmea perhettä on tuettu AH ry:n hallituksen jäsenien kautta. Yhdelle perheelle on luvassa uusi sponsori.</p>
+layout: normal
+title: Toimintasuunnitelma 2015
+excerpt_separator: <!--more-->
+---
+
+
+<h2>
+Apua Haitille ry - toimintasuunnitelma 2015
+</h2>
+
+<h3>Toimintasuunnitelma Suomessa</h3>
+<p>
+
+Työllistämisohjelman kautta jatketaan kuuden perheen työllistämistä 
+Timonetten kylässä. Kaksi perhettä on Kangasalan seurakunnan kautta 
+lahjoitetuissa kodeissa asuvia perheitä. Heidän työllistämistään tukevat
+ Ritva ja Kari Mikkonen Kangasalta. Kolmea perhettä on tuettu AH ry:n 
+ hallituksen jäsenien kautta. Yhdelle perheelle on luvassa uusi sponsori.
+</p>
+
+<!--more-->
+ 
 <p>Port au Princen perheille pyritään edelleen löytämään seurakuntia, järjestöjä ja yrityksiä, jotka voisivat lahjoittaa varat perheen kodin korjaamiseen tai uudelleen rakentamiseen. Koteja Haitille –projektissa on kahdelle seurakunnalle Suomessa jätetty haaste (Nokian seurakunta ja Jalasjärven seurakunta) ja näiden seurakuntien kanssa yhteistyötä pyritään vahvistamaan. Markku Kuusjärvi on pyydetty Koteja Haitille -projektiin mukaan ja hän pyrkii tämän vuoden aikana hankkimaan Tampereen ja Pirkanmaan seurakunnilta varoja kahteenkymmeneen kotiin.</p>
 <p>Mika Piirto ja Outi Piirto toimivat yhdistyksen vapaaehtoistyöntekijöinä. Jos kutsuja tulee, niin Mika ja Outi pitävät Apua Haitille –tilaisuuksia seurakunnissa myös tänä toimintakautena.</p>
 <h2>Toimintasuunnitelma Haitilla</h2>
