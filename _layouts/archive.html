@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  <!-- {% include header.html %} -->
+   
+   <!-- valikko ei näy kunnolla ilman, että eka elementti ois taustakuva.. :) -->
+   <div style="position: relative; 
+   width: 100%; height: 50px; background: #9e9; margin-bottom:30px;">
+   </div>
+   
+   
+  {{ page.content }}
+
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
+
+  {% include contact.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
+
