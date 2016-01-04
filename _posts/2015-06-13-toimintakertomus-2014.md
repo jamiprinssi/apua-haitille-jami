@@ -5,8 +5,7 @@ title: Toimintakertomus 2014
 excerpt_separator: <!--more-->
 ---
 
-
-      <p><em>Apua Haitille ry:n toimintakertomus 1.1.-31.12.2014</em></p>
+<p><em>Apua Haitille ry:n toimintakertomus 1.1.-31.12.2014</em></p>
 <h3>Toiminta-ajatus</h3>
 <p>Apua Haitille ry:n tavoitteena on rahoittaa haitilaisille maanjäristyksessä kotinsa menettäneille perheille pysyvät asunnot joko uudisrakentamalla tai korjaamalla vaurioituneita koteja. Maanjäristyksen uhreja ja kotinsa menettäneitä perheitä pyritään auttamaan myös muilla tavoin mm. työllistämällä ja kouluttamalla heitä sekä lisäämään Suomessa tietoisuutta Haitin tilanteesta.</p>
 

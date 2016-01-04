@@ -1,3 +1,33 @@
+.kontentti {
+  margin: 20px; }
+
+.posti {
+  margin: 0px 20px 5em; }
+
+.posti p {
+  font-size: 10px; }
+  @media screen and (min-width: 480px) {
+    .posti p {
+      font-size: 11px; } }
+  @media screen and (min-width: 640px) {
+    .posti p {
+      font-size: 12px; } }
+  @media screen and (min-width: 768px) {
+    .posti p {
+      font-size: 13px; } }
+
+.posti h2 {
+  font-size: 15px; }
+  @media screen and (min-width: 480px) {
+    .posti h2 {
+      font-size: 16px; } }
+  @media screen and (min-width: 640px) {
+    .posti h2 {
+      font-size: 17px; } }
+  @media screen and (min-width: 768px) {
+    .posti h2 {
+      font-size: 19px; } }
+
 html,
 body {
   height: 100%;

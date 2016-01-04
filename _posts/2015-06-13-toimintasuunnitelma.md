@@ -1,17 +1,13 @@
 ---
 layout: normal
 title: Toimintasuunnitelma 2015
+
 excerpt_separator: <!--more-->
 ---
 
-
-<h2>
-Apua Haitille ry - toimintasuunnitelma 2015
-</h2>
-
+<h2>Apua Haitille ry - toimintasuunnitelma 2015</h2>
 <h3>Toimintasuunnitelma Suomessa</h3>
 <p>
-
 Työllistämisohjelman kautta jatketaan kuuden perheen työllistämistä 
 Timonetten kylässä. Kaksi perhettä on Kangasalan seurakunnan kautta 
 lahjoitetuissa kodeissa asuvia perheitä. Heidän työllistämistään tukevat

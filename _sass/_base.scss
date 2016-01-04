@@ -1,3 +1,56 @@
+///////////////////////////////////////////////////////
+// omat tyylit alkuun, tähän 
+// omat responsiiviset loppuun 
+
+.kontentti {
+    margin: 20px;
+}
+.posti {
+    margin: 0px 20px 5em;
+}
+
+
+//responsiivinen fonttikoko sassilla...
+$p-font-sizes: (
+  null  : 10px,
+  480px : 11px,
+  640px : 12px,
+  768px: 13px
+);
+$h2-font-sizes: (
+  null  : 15px,
+  480px : 16px,
+  640px : 17px,
+  768px: 19px
+);
+
+@mixin font-size($fs-map) {
+  @each $fs-breakpoint, $fs-font-size in $fs-map {
+    @if $fs-breakpoint == null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      @media screen and (min-width: $fs-breakpoint) {
+        font-size: $fs-font-size;
+      }
+    }
+  }
+}
+.posti p {
+  @include font-size($p-font-sizes);
+}
+.posti h2 {
+  @include font-size($h2-font-sizes);
+}
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////
+// teeman alkuperäistä settiä
 html,
 body {
     height: 100%;
@@ -225,9 +278,7 @@ header {
     }
 }
 
-.kontentti {
-    margin: 20px;
-}
+
 .portfolio-box {
     position: relative;
     display: block;
